@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d6ba047715a5df610ed357c48dae94d5",
+    "packages": [
+        {
+            "name": "corviz/framework",
+            "version": "v0.6-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Corviz/framework.git",
+                "reference": "ca79afa21df2042dced689dd0aed798b748e1e92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Corviz/framework/zipball/ca79afa21df2042dced689dd0aed798b748e1e92",
+                "reference": "ca79afa21df2042dced689dd0aed798b748e1e92",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions/redirect.php",
+                    "functions/response.php",
+                    "functions/url.php",
+                    "functions/view.php"
+                ],
+                "psr-4": {
+                    "Corviz\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Low weight php framework",
+            "support": {
+                "issues": "https://github.com/Corviz/framework/issues",
+                "source": "https://github.com/Corviz/framework/tree/v0.6-alpha"
+            },
+            "time": "2022-04-21T22:00:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "corviz/framework": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

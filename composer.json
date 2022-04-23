@@ -1,0 +1,22 @@
+{
+    "name": "carloscarucce/corviz-pagination-helpers",
+    "description": "Pagination helpers to aplications made with corviz/framework",
+    "type": "library",
+    "require": {
+        "php": ">=7",
+        "corviz/framework": "0.*@alpha"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos A. B. Carucce",
+            "email": "carloscarucce@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "functions/paginate_native_query.php",
+            "functions/paginate_query.php"
+        ]
+    }
+}
